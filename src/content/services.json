@@ -1,0 +1,290 @@
+{
+    "makeup": [
+      {
+        "service": "Makeup Application (no lashes)",
+        "price": "$65"
+      },
+      {
+        "service": "Makeup Application (with lashes)",
+        "price": "$75"
+      },
+      {
+        "service": "60 Minute Makeup Lesson",
+        "price": "$125"
+      },
+      {
+        "service": "90 Minute Makeup Lesson",
+        "price": "$150"
+      },
+      {
+        "service": "120 Minute Makeup Lesson",
+        "price": "$175"
+      },
+      {
+        "service": "Lash Application",
+        "price": "$25"
+      }
+    ],
+    "waxing": [
+      {
+        "service": "Eybrows",
+        "price": "$17"
+      },
+      {
+        "service": "Middle of Brows",
+        "price": "$7"
+      },
+      {
+        "service": "Lip",
+        "price": "$12"
+      },
+      {
+        "service": "Eyebrows & Lip",
+        "price": "$26"
+      },
+      {
+        "service": "Chin",
+        "price": "$15"
+      },
+      {
+        "service": "Eyebrows, Lip & Chin",
+        "price": "$39"
+      },
+      {
+        "service": "Sideburns",
+        "price": "$19"
+      },
+      {
+        "service": "Chest",
+        "price": "Starting at $45"
+      },
+      {
+        "service": "Abdomen",
+        "price": "Starting at $20"
+      },
+      {
+        "service": "Back",
+        "price": "Starting at $55"
+      },
+      {
+        "service": "Underarms",
+        "price": "$25"
+      },
+      {
+        "service": "Half Arms",
+        "price": "$29"
+      },
+      {
+        "service": "Full Arms",
+        "price": "$45"
+      },
+      {
+        "service": "Bikini",
+        "price": "Starting at $35"
+      },
+      {
+        "service": "Brazilian",
+        "price": "Starting at $65"
+      },
+      {
+        "service": "Half Legs",
+        "price": "$40"
+      },
+      {
+        "service": "Full Legs",
+        "price": "$70"
+      },
+      {
+        "service": "Toes",
+        "price": "$19"
+      },
+      {
+        "service": "Fingers",
+        "price": "$22"
+      },
+      {
+        "service": "Tweezing",
+        "price": "Starting at $5"
+      }
+    ],
+    "skincareTypes": [
+      {
+        "type": "Customized Facial",
+        "detail": "The customized facials will be rejuvenating and designed for your individual skin needs, whether it be anti-aging brightening, acne, or sun damaged skin. Leave it to the experts and just let us know your concerns and how much time of relaxation you would like."
+      },
+      {
+        "type": "Ultrasonic Facial",
+        "detail": "This treatment is perfect for all skin types from acne, aging/sun damaged skin, teens to even rosacea. It will deeply cleanse & exfoliate with no irritation or inflammation and repairs on a deeper level than other facials. Over time with a series of ultrasonic treatments it will combat aging skin, manage rosacea, clear acne, reduce pore size and hyper-pigmentation."
+      },
+      {
+        "type": "Teen Facial",
+        "detail": "A great way for teens to take care of their skin at the spa, but also learn how to care for their skin at home."
+      }
+    ],
+    "skincare": [
+      {
+        "type": "Customized Facial",
+        "service": "30 Minutes",
+        "price": "$55",
+        "detail": "Includes a skin analysis, cleanse, exfoliation, light extractions, face massage or neck massage (neck massage includesa mask)."
+      },
+      {
+        "type": "Customized Facial",
+        "service": "60 Minutes",
+        "price": "$85",
+        "detail": "Includes a skin analysis, cleanse, exfoliation, extractions, mask and massage of the face, neck, shoulders, arms and hands."
+      },
+      {
+        "type": "Customized Facial",
+        "service": "90 Minutes",
+        "price": "$130",
+        "detail": "Everything from the 60 minute facial with an extra 30 minutes of massage."
+      },
+      {
+        "type": "Ultrasonic Facial",
+        "service": "45 Minutes",
+        "price": "Face $85 / Back $115",
+        "detail": "All the clinical parts of the ultrasonic treatment with no massage."
+      },
+      {
+        "type": "Ultrasonic Facial",
+        "service": "75 Minutes",
+        "price": "$125",
+        "detail": "All the clinical parts of the ultrasonic treatment with massage of the face, neck, shoulders, arms and hands."
+      },
+      {
+        "type": "Ultrasonic Facial",
+        "service": "90 Minutes",
+        "price": "$155",
+        "detail": "Everything from the 75 minute ultrasonic with extra 30 minutes of massage."
+      },
+      {
+        "type": "Teen Facial",
+        "service": "30 Minutes",
+        "price": "$65",
+        "detail": "Basic cleanse, exfoliation, mask and light extraction"
+      },
+      {
+        "type": "Teen Facial",
+        "service": "Add on full extraction",
+        "price": "$10",
+        "detail": ""
+      },
+      {
+        "type": "Teen Facial",
+        "service": "Add on neck/arms/hand massage",
+        "price": "$10",
+        "detail": ""
+      },
+      {
+        "type": "Misc",
+        "service": "Dermaplaning",
+        "price": "$85 / add on $50",
+        "detail": "Removes surface dead skin cells and vellus hair, which brightens the skin and gives healthier, more radiant appearance."
+      },
+      {
+        "type": "Misc",
+        "service": "Peels",
+        "price": "Starting at $50 (Half off when added to any facial)",
+        "detail": "Treat premature aging, sundamage, hyper-pigmentation and wrinkles/fine lines as well as improving skin radiance and texture."
+      },
+      {
+        "type": "Misc",
+        "service": "Eye Treatment",
+        "price": "$25",
+        "detail": "Helps combat fine lines and wrinkles, puffiness and sagging with and ultrasonic infusion."
+      },
+      {
+        "type": "Misc",
+        "service": "Lip Treatment",
+        "price": "$25",
+        "detail": "Exfoliates, hydrates and plumps with collagen, vitamin E & C and multi peptides to help give the lips a plumper, fuller and more youthful appearance."
+      },
+      {
+        "type": "Add Ons",
+        "service": "Anti Aging, Brighten, Anti Acne Serum Treatment",
+        "price": "$25",
+        "detail": ""
+      },
+      {
+        "type": "Add Ons",
+        "service": "Luxe Mask 24k gold, collagen, stem cell and more options",
+        "price": "$15",
+        "detail": ""
+      },
+      {
+        "type": "Add Ons",
+        "service": "Eye or Lip Treatment",
+        "price": "$15",
+        "detail": ""
+      }
+    ],
+    "lashes": [
+      {
+        "service": "Lash Lifting",
+        "price": "$85"
+      },
+      {
+        "service": "Lash Tinting",
+        "price": "$30"
+      },
+      {
+        "service": "Lash Lift & Tint",
+        "price": "$100"
+      },
+      {
+        "service": "Brow Tint",
+        "price": "$20"
+      }
+    ],
+    "tanning": [
+      {
+        "service": "Face",
+        "price": "$15"
+      },
+      {
+        "service": "Legs",
+        "price": "$25"
+      },
+      {
+        "service": "Upper Body",
+        "price": "$35"
+      },
+      {
+        "service": "Full Body",
+        "price": "$49"
+      }
+    ],
+    "lashExt": [
+      {
+        "type": "Classic Set",
+        "service": "Full Set",
+        "price": "$175"
+      },
+      {
+        "type": "Classic Set",
+        "service": "2 Week Fill",
+        "price": "$60"
+      },
+      {
+        "type": "Classic Set",
+        "service": "3 Week Fill",
+        "price": "$85"
+      },
+      {
+        "type": "Hybrid & Volume Sets",
+        "service": "Full Set",
+        "price": "$275"
+      },
+      {
+        "type": "Hybrid & Volume Sets",
+        "service": "2 Week Fill",
+        "price": "$90"
+      },
+      {
+        "type": "Hybrid & Volume Sets",
+        "service": "3 Week Fill",
+        "price": "$115"
+      }
+    ]
+  }

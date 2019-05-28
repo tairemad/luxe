@@ -1,0 +1,15 @@
+footer {
+    background: #fff;
+    color: #000;
+    font-size: 14px;
+    text-align: center;
+}
+
+footer p a {
+    color: #000;
+    text-decoration: none;
+}
+
+footer p a:hover{
+    color: #9c9898;
+}

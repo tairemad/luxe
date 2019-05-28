@@ -1,0 +1,505 @@
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 30px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+section h1 {
+    font-weight: 300;
+    font-size: 35px;
+    text-transform: uppercase;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+section#services {
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+#services p {
+    align-self: center;
+}
+.serviceList {
+    justify-content: center;
+    margin-bottom: 40px;
+    height: 40px;
+}
+
+.serviceList li button {
+    text-decoration: none;
+    margin-right: 30px;
+    color: #000;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    border: none;
+    font-size: 16px;
+    text-transform: capitalize;
+    width: 100%;
+    height: 100%;
+    margin-right: 10px;
+    background: transparent;
+}
+
+.serviceList li button:focus{
+    outline: none;
+}
+
+.serviceContent {
+    position: relative;
+    min-height: 200px;
+    margin-bottom: 40px;
+}
+
+.serviceContent ul {
+    display: block;
+}
+
+ul.makeup, ul.lashes, ul.tanning {
+    width: 40%;
+    margin: auto;
+}
+
+ul.hair {
+    column-count: 2;
+    width: 70%;
+    margin: auto;
+}
+
+.skintype {
+    margin: 0px 8%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+}
+
+.type h4{
+    margin: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+p.detail {
+    margin: 5px 0 10px 0;
+}
+
+.listItem, .price {
+    display: table-cell;
+    width: 1%;
+    white-space: nowrap;
+}
+
+.listItem h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin: 0;
+    padding-right: 10px;
+}
+
+.line {
+    height: 3px;
+    border-bottom: 1px solid #afaaa9;
+    display: table-cell;
+    width: 98%;
+    z-index: 1;
+    position: relative;
+    bottom: 9px;
+}
+
+.price p{
+    margin: 0;
+    padding-left: 10px;
+}
+
+section#about, section#contact {
+    /* background: #f3f3f3; */
+    background: #000;
+    color: #fff;
+}
+
+section#contact a {
+    color: #fff;
+}
+
+section#about, section#testimonials {
+    min-height: 400px;
+}
+#map {
+    width: 45%;
+    height: 360px;
+}
+.content {
+    width: 40%;
+    padding: 0 30px;
+    font-size: 16px;
+}
+
+a.contactInfo {
+    color: #000;
+    text-decoration: none;
+}
+
+a {
+    color: #000;
+}
+
+.map {
+    -webkit-filter: grayscale(100%);
+       -moz-filter: grayscale(100%);
+        -ms-filter: grayscale(100%);
+         -o-filter: grayscale(100%);
+            filter: grayscale(100%);
+}
+
+var {
+    display: block;
+    font-family: 'Alex Brush', cursive;
+    font-style: normal;
+    font-weight: 100;
+    letter-spacing: 0;
+    line-height: 1em;
+    color: #333;
+    font-size: 10rem;
+    position: absolute;
+    top: -11px;
+    opacity: 0.1;
+    white-space: nowrap;
+    z-index: -1;
+    -webkit-transition: opacity .3s ease-out .2s;
+    -moz-transition: opacity .3s ease-out .2s;
+    transition: opacity .3s ease-out .2s;
+    margin: auto;
+}
+
+section#about var, section#contact var{
+    color: #f3f3f3;
+    z-index: 0;
+}
+
+section#services var{
+    text-align: center;
+    width: 100%;
+}
+
+.aboutSection{
+    display: flex;
+    width: 80%;
+}
+
+/* Testimonial */
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+}
+
+blockquote{
+    position: relative;
+    font-size: 20px;
+    font-style: italic;
+}
+
+blockquote:before {
+    content: "“";
+    color: #E0DDD7;
+    font-family: 'Alex Brush', cursive;
+    font-size: 6em;
+    position: absolute;
+    left: -25px;
+    top: -45px;
+    z-index: -10;
+}
+
+cite {
+    text-align: center;
+}
+
+.review {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+
+.slider {
+    height: 320px;
+    width: 680px;
+    margin: 50px auto 20px;
+    overflow: visible;
+    position: relative;
+  }
+
+  .mask {
+    overflow: hidden;
+    height: 320px;
+  }
+
+  .slider ul {
+    margin: 0;
+    padding: 0;
+    position: relative;
+  }
+
+  .slider li {
+    width: 680px;
+    height: 320px;
+    position: absolute;
+    top: -325px;
+    list-style: none;
+  }
+
+  .slider li.anim1 {
+    animation: cycle 60s linear infinite;
+  }
+
+  .slider li.anim2 {
+    animation: cycle2 60s linear infinite;
+  }
+
+  .slider li.anim3 {
+    animation: cycle3 60s linear infinite;
+  }
+
+  .slider li.anim4 {
+    animation: cycle4 60s linear infinite;
+  }
+
+  .slider li.anim5 {
+    animation: cycle5 60s linear infinite;
+  }
+
+  .slider:hover li {
+    animation-play-state: paused;
+  }
+
+  @keyframes cycle {
+    0% {
+      top: 0px;
+    }
+    4% {
+      top: 0px;
+    }
+    16% {
+      top: 0px;
+      opacity: 1;
+      z-index: 0;
+    }
+    20% {
+      top: 325px;
+      opacity: 0;
+      z-index: 0;
+    }
+    21% {
+      top: -325px;
+      opacity: 0;
+      z-index: -1;
+    }
+    50% {
+      top: -325px;
+      opacity: 0;
+      z-index: -1;
+    }
+    92% {
+      top: -325px;
+      opacity: 0;
+      z-index: 0;
+    }
+    96% {
+      top: -325px;
+      opacity: 0;
+    }
+    100% {
+      top: 0px;
+      opacity: 1;
+    }
+  }
+
+  @keyframes cycle2 {
+    0% {
+      top: -325px;
+      opacity: 0;
+    }
+    16% {
+      top: -325px;
+      opacity: 0;
+    }
+    20% {
+      top: 0px;
+      opacity: 1;
+    }
+    24% {
+      top: 0px;
+      opacity: 1;
+    }
+    36% {
+      top: 0px;
+      opacity: 1;
+      z-index: 0;
+    }
+    40% {
+      top: 325px;
+      opacity: 0;
+      z-index: 0;
+    }
+    41% {
+      top: -325px;
+      opacity: 0;
+      z-index: -1;
+    }
+    100% {
+      top: -325px;
+      opacity: 0;
+      z-index: -1;
+    }
+  }
+
+  @keyframes cycle3 {
+    0% {
+      top: -325px;
+      opacity: 0;
+    }
+    36% {
+      top: -325px;
+      opacity: 0;
+    }
+    40% {
+      top: 0px;
+      opacity: 1;
+    }
+    44% {
+      top: 0px;
+      opacity: 1;
+    }
+    56% {
+      top: 0px;
+      opacity: 1;
+      z-index: 0;
+    }
+    60% {
+      top: 325px;
+      opacity: 0;
+      z-index: 0;
+    }
+    61% {
+      top: -325px;
+      opacity: 0;
+      z-index: -1;
+    }
+    100% {
+      top: -325px;
+      opacity: 0;
+      z-index: -1;
+    }
+  }
+
+  @keyframes cycle4 {
+    0% {
+      top: -325px;
+      opacity: 0;
+    }
+    56% {
+      top: -325px;
+      opacity: 0;
+    }
+    60% {
+      top: 0px;
+      opacity: 1;
+    }
+    64% {
+      top: 0px;
+      opacity: 1;
+    }
+    76% {
+      top: 0px;
+      opacity: 1;
+      z-index: 0;
+    }
+    80% {
+      top: 325px;
+      opacity: 0;
+      z-index: 0;
+    }
+    81% {
+      top: -325px;
+      opacity: 0;
+      z-index: -1;
+    }
+    100% {
+      top: -325px;
+      opacity: 0;
+      z-index: -1;
+    }
+  }
+
+  @keyframes cycle5 {
+    0% {
+      top: -325px;
+      opacity: 0;
+    }
+    76% {
+      top: -325px;
+      opacity: 0;
+    }
+    80% {
+      top: 0px;
+      opacity: 1;
+    }
+    84% {
+      top: 0px;
+      opacity: 1;
+    }
+    96% {
+      top: 0px;
+      opacity: 1;
+      z-index: 0;
+    }
+    100% {
+      top: 325px;
+      opacity: 0;
+      z-index: 0;
+    }
+  }
+
+@media (max-width: 884px) {
+
+    section {
+        padding: 10px 10px 20px;
+    }
+
+    ul.makeup, ul.lashes, ul.tanning {
+        width: 90%;
+    }
+    ul.hair{
+        width: 90%;
+        column-count: 1;
+    }
+    .skintype {
+        grid-template-columns: 1fr;
+    }
+    .serviceList li button {
+        font-size: 14px;
+    }
+    .slider, .slider li {
+        width: 100%;
+        height: fit-content;
+    }
+}
+
+@media (max-width: 750px) {
+    var {display: none;}
+}
+
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+      background-attachment: scroll;
+    }
+  }
