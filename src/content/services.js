@@ -149,35 +149,35 @@ const Services = () => {
                     ))
                     }
                 </ul>
-                {/* <h3 className="lashExtType">Lash Extensions</h3>
+                <h3 className="lashExtType">Lash Extensions</h3>
                 <p className="lashExtType">Classic Sets</p>
                 <ul className="lashes">
-                {
-                    classic.map((item, index) => (
-                        <li key={index}>
-                            <div className="serviceItem">
-                                <div className="listItem"><h5>{item.service}</h5></div>
-                                <div className="line"></div>
-                                <div className="price"><p>{item.price}</p></div>
-                            </div>
-                        </li>
-                    ))
+                    {
+                       classic.map((item, index) => (
+                            <li key={index}>
+                                <div className="serviceItem">
+                                    <div className="listItem"><h5>{item.service}</h5></div>
+                                    <div className="line"></div>
+                                    <div className="price"><p>{item.price}</p></div>
+                                </div>
+                            </li>
+                        ))
                     }
                 </ul>
                 <p className="lashExtType">Hybrid & Volume Sets</p>
                 <ul className="lashes">
-                {
-                    volume.map((item, index) => (
-                        <li key={index}>
-                            <div className="serviceItem">
-                                <div className="listItem"><h5>{item.service}</h5></div>
-                                <div className="line"></div>
-                                <div className="price"><p>{item.price}</p></div>
-                            </div>
-                        </li>
-                    ))
+                    {
+                       volume.map((item, index) => (
+                            <li key={index}>
+                                <div className="serviceItem">
+                                    <div className="listItem"><h5>{item.service}</h5></div>
+                                    <div className="line"></div>
+                                    <div className="price"><p>{item.price}</p></div>
+                                </div>
+                            </li>
+                        ))
                     }
-                </ul> */}
+                </ul>
               </TabContent>
               <TabContent for="hair">
                 <ul className="hair">
