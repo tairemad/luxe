@@ -11,6 +11,7 @@ const Services = () => {
     const addon = services.skincare.filter(item => { return item.type === 'Add Ons'});
     const classic = services.lashExt.filter(item => { return item.type === 'Classic Set'});
     const volume = services.lashExt.filter(item => { return item.type === 'Hybrid & Volume Sets'});
+
     const styles = {
         activeLinkStyle: {
             borderBottom: '2px solid #333',
@@ -28,6 +29,7 @@ const Services = () => {
                   <li><TabLink to="lashes">Lashes & Tinting</TabLink></li>
                   <li><TabLink to="hair">Hair Removal</TabLink></li>
                   <li><TabLink to="tanning">Spray Tanning</TabLink></li>
+                  <li><TabLink to="bridal">Bridal Services</TabLink></li>
               </ul>
               <div className="serviceContent">
               <TabContent for="makeup">
@@ -204,6 +206,22 @@ const Services = () => {
                                 <div className="line"></div>
                                 <div className="price"><p>{item.price}</p></div>
                             </div>
+                        </li>
+                    ))
+                }
+                </ul>
+              </TabContent>
+              <TabContent for="bridal">
+                <ul className="lashes">
+                {
+                    services.bridal.map((item, index) => (
+                        <li key={index}>
+                            <div className="serviceItem">
+                                <div className="listItem"><h5>{item.service}</h5></div>
+                                <div className="line"></div>
+                                <div className="price"><p>{item.price}</p></div>
+                            </div>
+                            <p className="detail">{item.detail}</p>
                         </li>
                     ))
                 }

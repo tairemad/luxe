@@ -157,9 +157,18 @@ a.contactInfo {
     text-decoration: none;
 }
 
+section#contact a:hover{
+  color: #9c9898;
+}
+
 a {
     color: #000;
 }
+
+a:hover{
+  color: #9c9898;
+}
+
 
 .map {
     -webkit-filter: grayscale(100%);
@@ -202,8 +211,21 @@ section#services var{
 .aboutSection{
     display: flex;
     width: 80%;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.award {
+  width: 25px;
+  margin-right: 10px;
 }
 
+.awardsText {
+  text-align: center;
+}
+
+.awardsText span {
+  vertical-align: super;
+}
 /* Testimonial */
 
 .testimonial {
@@ -485,7 +507,7 @@ cite {
         padding: 10px 10px 20px;
     }
 
-    ul.makeup, ul.lashes, ul.tanning, .lashExtType {
+    ul.makeup, ul.lashes, ul.tanning, .lashExtType, ul.bridal{
         width: 90%;
     }
     ul.hair{

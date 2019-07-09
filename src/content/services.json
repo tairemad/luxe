@@ -286,5 +286,59 @@
         "service": "3 Week Fill",
         "price": "$115"
       }
+    ],
+    "bridal": [
+      {
+        "type": "Makeup",
+        "service": "Bridal Trial Run/Wedding Day Applications",
+        "price": "$225",
+        "detail": "This includes me traveling if needed within 70 miles round trip on the wedding day, a new set of lashes for each application."
+      },
+      {
+        "type": "Makeup",
+        "service": "Bridesmaids/Mothers/Family/Friends/Etc",
+        "price": "$85/person",
+        "detail": "Includes lashes if desired."
+      },
+      {
+        "type": "Makeup",
+        "service": "Bridesmaids/Mothers/Family/Friends/Etc",
+        "price": "$100/person",
+        "detail": "Includes lashes if desired and Lipstick OR Gloss to keep."
+      },
+      {
+        "type": "Makeup",
+        "service": "Junior Bridesmaids Applications",
+        "price": "$25/person",
+        "detail": "This mini-makeup application is for girls under the age of 13 years old only. Under 6 years old is complimentary."
+      },
+      {
+        "type": "Makeup",
+        "service": "Makeup applications for engagement photos, bridal shower and bachelorette party",
+        "detail": "Please ask for pricing if interested"
+      },
+      {
+        "type": "Tanning",
+        "service": "Trial Run Full Body Tan",
+        "price": "$40"
+      },
+      {
+        "type": "Tanning",
+        "service": "Wedding Spray Tan",
+        "price": "$50/person",
+        "detail": "Prices apply for anyone else in your wedding party as well."
+      },
+      {
+        "type": "Note",
+        "service":"Other Services",
+        "price": "please contact",
+        "detail": "Please ask about Skincare treatments, Waxing, Brow and Lash Tinting, Lash Lifting and Lash Extensions if you are interested in any spa treatments prior to your wedding."
+      },
+      {
+        "type": "Note",
+        "service": "Wedding Trial Run",
+        "price": "$225",
+        "detail": "I will present you with a contract on the day of the Trial Run in which I ask the Bride to pay in FULL to me that day as well. I ONLY accept Cash or Credit Card. as a form of payment from all recipients, NO PERSONAL CHECKS. If you have any questions at all for me, please do not hesitate to ask. Thank you for your consideration and I hope to be working with you soon!"
+      }
     ]
   }
