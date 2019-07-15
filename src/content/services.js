@@ -230,7 +230,7 @@ const Services = () => {
               </div>
               </Tabs>
 
-              <p>We are always learning and adding new services to our menu. If you do not see something on our services that you are interested in, we may offer it and it may not be listed yet. So please do not hesitate to ask us about it.</p>
+              <p className="serviceNote">We are always learning and adding new services to our menu. If you do not see something on our services that you are interested in, we may offer it and it may not be listed yet. So please do not hesitate to ask us about it.</p>
         </section>
     );
 }

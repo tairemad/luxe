@@ -76,19 +76,10 @@ h3.lashExtType{
   text-transform: uppercase;
 }
 
-ul.hair {
+ul.hair, .skintype{
     column-count: 2;
     width: 70%;
     margin: auto;
-}
-
-.skintype {
-    margin: 0px 8%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
-    grid-column-gap: 25px;
-    grid-row-gap: 25px;
 }
 
 .type h4{
@@ -208,6 +199,10 @@ section#services var{
     width: 100%;
 }
 
+section#services p.serviceNote {
+  width: 50%;
+  margin: auto;
+}
 .aboutSection{
     display: flex;
     width: 80%;
@@ -507,27 +502,55 @@ cite {
         padding: 10px 10px 20px;
     }
 
+   
+
     ul.makeup, ul.lashes, ul.tanning, .lashExtType, ul.bridal{
         width: 90%;
     }
-    ul.hair{
+    ul.hair, .skintype{
         width: 90%;
         column-count: 1;
     }
-    .skintype {
-        grid-template-columns: 1fr;
+
+    section#services p.serviceNote {
+    width: 85%;
+    margin: auto;
     }
     .serviceList li button {
-        font-size: 14px;
+      font-size: 12px;
+      margin-right: 5px;
+      max-width: 70px;
     }
     .slider, .slider li {
         width: 100%;
         height: fit-content;
     }
+
 }
 
 @media (max-width: 750px) {
     var {display: none;}
+    #map {
+      display: none;
+    }
+    #contact .content {
+      width: 80%;
+      text-align: center;
+    }
+}
+
+@media (max-width: 320px) {
+  .links > ul > li {
+    padding: 0 3px;
+  }
+
+  .links > ul > li:last-child  {
+    padding: 0 0px;
+  }
+
+  .links ul {
+    font-size: 7px;
+  }
 }
 
 @media only screen and (max-device-width: 1366px) {

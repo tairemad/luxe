@@ -202,15 +202,15 @@
       },
       {
         "type": "Add Ons",
-        "service": "Anti Aging, Brighten, Anti Acne Serum Treatment",
+        "service": "Anti Aging",
         "price": "$25",
-        "detail": ""
+        "detail": "Brighten, Anti Acne Serum Treatment"
       },
       {
         "type": "Add Ons",
-        "service": "Luxe Mask 24k gold, collagen, stem cell and more options",
+        "service": "Luxe Mask 24k gold",
         "price": "$15",
-        "detail": ""
+        "detail": "Collagen, stem cell, and more"
       },
       {
         "type": "Add Ons",
@@ -290,32 +290,32 @@
     "bridal": [
       {
         "type": "Makeup",
-        "service": "Bridal Trial Run/Wedding Day Applications",
+        "service": "Trial Run",
         "price": "$225",
-        "detail": "This includes me traveling if needed within 70 miles round trip on the wedding day, a new set of lashes for each application."
+        "detail": "Wedding Day Applications...This includes me traveling if needed within 70 miles round trip on the wedding day, a new set of lashes for each application."
       },
       {
         "type": "Makeup",
-        "service": "Bridesmaids/Mothers/Family/Friends/Etc",
+        "service": "Bridal Party",
         "price": "$85/person",
-        "detail": "Includes lashes if desired."
+        "detail": "This includes Bridesmaids, Mothers, Family, Friends, etc makeup ppplication and it inncludes lashes if desired."
       },
       {
         "type": "Makeup",
-        "service": "Bridesmaids/Mothers/Family/Friends/Etc",
+        "service": "Bridal Party",
         "price": "$100/person",
-        "detail": "Includes lashes if desired and Lipstick OR Gloss to keep."
+        "detail": "This includes Bridesmaids, Mothers, Family, Friends, etc makeup ppplication and it includes lashes if desired and Lipstick OR Gloss to keep."
       },
       {
         "type": "Makeup",
-        "service": "Junior Bridesmaids Applications",
+        "service": "Junior Bridesmaids",
         "price": "$25/person",
         "detail": "This mini-makeup application is for girls under the age of 13 years old only. Under 6 years old is complimentary."
       },
       {
         "type": "Makeup",
-        "service": "Makeup applications for engagement photos, bridal shower and bachelorette party",
-        "detail": "Please ask for pricing if interested"
+        "service": "Other Bridal",
+        "detail": "Makeup applications for engagement photos, bridal shower and bachelorette party. Please ask for pricing if interested"
       },
       {
         "type": "Tanning",
