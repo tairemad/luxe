@@ -159,12 +159,6 @@
         "detail": "Everything from the 75 minute ultrasonic with extra 30 minutes of massage."
       },
       {
-        "type": "Ultrasonic Facial",
-        "service": "Serum Treatment",
-        "price": "$25",
-        "detail": "Customized selection of serums designed to treat you anti-agining, brightening, anti-inflammatory, etc. needs"
-      },
-      {
         "type": "Teen Facial",
         "service": "30 Minutes",
         "price": "$65",
@@ -207,10 +201,16 @@
         "detail": "Exfoliates, hydrates and plumps with collagen, vitamin E & C and multi peptides to help give the lips a plumper, fuller and more youthful appearance."
       },
       {
-        "type": "Add Ons",
+        "type": "Misc",
         "service": "Luxe Mask",
         "price": "$25 / add on $17",
         "detail": "Choice of anti-aging, brightening, sensistive skin, stem cell, hydrating or purifying"
+      },
+      {
+        "type": "Misc",
+        "service": "Serum Treatment",
+        "price": "$25",
+        "detail": "Customized serum treatment infused with ultrasonic machine."
       }
     ],
     "lashes": [

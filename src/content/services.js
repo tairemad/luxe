@@ -104,27 +104,10 @@ const Services = () => {
                     </ul>
                 </div>
                 <div className="type">
-                    <h4>Other Skincare Treatments</h4>
+                    <h4>Other Skincare Treatments/Addons</h4>
                     <ul>
                         {
                             misc.map((item, index) => (
-                                <li key={index}>
-                                    <div className="serviceItem">
-                                        <div className="listItem"><h5>{item.service}</h5></div>
-                                        <div className="line"></div>
-                                        <div className="price"><p>{item.price}</p></div>
-                                    </div>
-                                    <p className="detail">{item.detail}</p>
-                                </li>
-                            ))
-                        }
-                    </ul>
-                </div>
-                <div className="type">
-                     <h4>Addons</h4>
-                    <ul>
-                        {
-                            addon.map((item, index) => (
                                 <li key={index}>
                                     <div className="serviceItem">
                                         <div className="listItem"><h5>{item.service}</h5></div>
