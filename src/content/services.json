@@ -2,11 +2,11 @@
     "makeup": [
       {
         "service": "Makeup Application (no lashes)",
-        "price": "$65"
+        "price": "$75"
       },
       {
         "service": "Makeup Application (with lashes)",
-        "price": "$75"
+        "price": "$85"
       },
       {
         "service": "60 Minute Makeup Lesson",
@@ -21,8 +21,8 @@
         "price": "$175"
       },
       {
-        "service": "Lash Application",
-        "price": "$25"
+        "service": "Lash Application (no-makeup)",
+        "price": "$20"
       }
     ],
     "waxing": [
@@ -110,7 +110,7 @@
     "skincareTypes": [
       {
         "type": "Customized Facial",
-        "detail": "The customized facials will be rejuvenating and designed for your individual skin needs, whether it be anti-aging brightening, acne, or sun damaged skin. Leave it to the experts and just let us know your concerns and how much time of relaxation you would like."
+        "detail": "The customized facials will be rejuvenating and designed for your individual skin needs, whether it be anti-aging, brightening, acne, or sun damaged skin. Leave it to the experts and just let us know your concerns and how much time of relaxation you would like."
       },
       {
         "type": "Ultrasonic Facial",
@@ -126,7 +126,7 @@
         "type": "Customized Facial",
         "service": "30 Minutes",
         "price": "$55",
-        "detail": "Includes a skin analysis, cleanse, exfoliation, light extractions, face massage or neck massage (neck massage includesa mask)."
+        "detail": "Includes a skin analysis, cleanse, exfoliation, light extractions, face massage or neck massage (neck massage includes a mask)."
       },
       {
         "type": "Customized Facial",
@@ -157,6 +157,12 @@
         "service": "90 Minutes",
         "price": "$155",
         "detail": "Everything from the 75 minute ultrasonic with extra 30 minutes of massage."
+      },
+      {
+        "type": "Ultrasonic Facial",
+        "service": "Serum Treatment",
+        "price": "$25",
+        "detail": "Customized selection of serums designed to treat you anti-agining, brightening, anti-inflammatory, etc. needs"
       },
       {
         "type": "Teen Facial",
@@ -191,32 +197,20 @@
       {
         "type": "Misc",
         "service": "Eye Treatment",
-        "price": "$25",
+        "price": "$25 / add on $17",
         "detail": "Helps combat fine lines and wrinkles, puffiness and sagging with and ultrasonic infusion."
       },
       {
         "type": "Misc",
         "service": "Lip Treatment",
-        "price": "$25",
+        "price": "$25 / add on $17",
         "detail": "Exfoliates, hydrates and plumps with collagen, vitamin E & C and multi peptides to help give the lips a plumper, fuller and more youthful appearance."
       },
       {
         "type": "Add Ons",
-        "service": "Anti Aging",
-        "price": "$25",
-        "detail": "Brighten, Anti Acne Serum Treatment"
-      },
-      {
-        "type": "Add Ons",
-        "service": "Luxe Mask 24k gold",
-        "price": "$15",
-        "detail": "Collagen, stem cell, and more"
-      },
-      {
-        "type": "Add Ons",
-        "service": "Eye or Lip Treatment",
-        "price": "$15",
-        "detail": ""
+        "service": "Luxe Mask",
+        "price": "$25 / add on $17",
+        "detail": "Choice of anti-aging, brightening, sensistive skin, stem cell, hydrating or purifying"
       }
     ],
     "lashes": [
@@ -252,7 +246,7 @@
       },
       {
         "service": "Full Body",
-        "price": "$49"
+        "price": "$50"
       }
     ],
     "lashExt": [
@@ -291,26 +285,26 @@
       {
         "type": "Makeup",
         "service": "Trial Run",
-        "price": "$225",
-        "detail": "Wedding Day Applications...This includes me traveling if needed within 70 miles round trip on the wedding day, a new set of lashes for each application."
+        "price": "$125",
+        "detail": "90 minute application at studio."
+      },
+      {
+        "type": "Makeup",
+        "service": "Bridal makeup application",
+        "price": "$150",
+        "detail": "60 minutes - Brides fee includes complimentary lash application, up to 70 miles round trip travel and Lipstick or Gloss to keep."
       },
       {
         "type": "Makeup",
         "service": "Bridal Party",
-        "price": "$85/person",
-        "detail": "This includes Bridesmaids, Mothers, Family, Friends, etc makeup ppplication and it inncludes lashes if desired."
-      },
-      {
-        "type": "Makeup",
-        "service": "Bridal Party",
-        "price": "$100/person",
-        "detail": "This includes Bridesmaids, Mothers, Family, Friends, etc makeup ppplication and it includes lashes if desired and Lipstick OR Gloss to keep."
+        "price": "$90/person",
+        "detail": "This includes Bridesmaids, Mothers, Family, Friends, etc. Makeup application and complimentary lashes if desired."
       },
       {
         "type": "Makeup",
         "service": "Junior Bridesmaids",
         "price": "$25/person",
-        "detail": "This mini-makeup application is for girls under the age of 13 years old only. Under 6 years old is complimentary."
+        "detail": "This mini-makeup application is for girls under the age of 13 years old only."
       },
       {
         "type": "Makeup",
@@ -319,7 +313,7 @@
       },
       {
         "type": "Tanning",
-        "service": "Trial Run Full Body Tan",
+        "service": "Trial Run Full Body Spray Tan",
         "price": "$40"
       },
       {
@@ -327,18 +321,6 @@
         "service": "Wedding Spray Tan",
         "price": "$50/person",
         "detail": "Prices apply for anyone else in your wedding party as well."
-      },
-      {
-        "type": "Note",
-        "service":"Other Services",
-        "price": "please contact",
-        "detail": "Please ask about Skincare treatments, Waxing, Brow and Lash Tinting, Lash Lifting and Lash Extensions if you are interested in any spa treatments prior to your wedding."
-      },
-      {
-        "type": "Note",
-        "service": "Wedding Trial Run",
-        "price": "$225",
-        "detail": "I will present you with a contract on the day of the Trial Run in which I ask the Bride to pay in FULL to me that day as well. I ONLY accept Cash or Credit Card. as a form of payment from all recipients, NO PERSONAL CHECKS. If you have any questions at all for me, please do not hesitate to ask. Thank you for your consideration and I hope to be working with you soon!"
       }
     ]
   }

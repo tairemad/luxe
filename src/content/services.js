@@ -104,6 +104,7 @@ const Services = () => {
                     </ul>
                 </div>
                 <div className="type">
+                    <h4>Other Skincare Treatments</h4>
                     <ul>
                         {
                             misc.map((item, index) => (
@@ -120,6 +121,7 @@ const Services = () => {
                     </ul>
                 </div>
                 <div className="type">
+                     <h4>Addons</h4>
                     <ul>
                         {
                             addon.map((item, index) => (
