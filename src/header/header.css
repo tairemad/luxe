@@ -59,10 +59,10 @@ header {
     height: 500px;
     display: grid;
     grid-template-columns: 1fr;
-    background-image: url('../img/katarina-sikuljak-718436-unsplash.jpg');
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
+    background: url('../img/katarina-sikuljak-718436-unsplash.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
 }
 
