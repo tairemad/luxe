@@ -15,7 +15,7 @@ const Contact = () => {
                     <p>Email: <a className="contactInfo" href="mailto:luxestudiospa@gmail.com">luxestudiospa@gmail.com</a></p>
                     <h2>HOURS</h2>
                     <p>Sun & Mon: Closed</p>
-                    <p>Mon - Thurs: 9am -9pm</p>
+                    <p>Tues - Thurs: 9am -9pm</p>
                     <p>Fri: 9am - 6pm</p>
                     <p>Sat: 9am - 5pm</p>
                 </div>
